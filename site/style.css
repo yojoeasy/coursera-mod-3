@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* div:nth-child(1){
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 0;
+} */
+nav{
+    background-color: grey;
+    padding: 10px 20px;
+}
+.head{
+    display:flex;
+}
+.head>h1{
+    font-size: 2rem;
+    padding:0;
+}
+/* .menu{
+    display:hide;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 70%;
+} */
+/* .menu div{
+    display: hide;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+} */
+.middle{
+    display:none;
+}
+.middle h1{
+    padding: 10px;
+}
+h1 a{
+    text-decoration: none;
+}
+h1 a:hover,h1 a:active, h1 a:visited{
+    color: black;
+}
+hr{
+    border-top: 2px solid black;
+}
+.main>h1:nth-child(1){
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 0;
+}
+.container{
+    display: flex;
+}
+.class{
+    width: 30%;
+    margin: 20px auto;
+    border: 1px solid black;
+    background-color: grey;
+}
+.class>h1{
+    padding: 10px;
+    /* margin-left: 60%; */
+    display:flex;
+    justify-content: center;
+    /* border: 1px solid black;
+    border-collapse: collapse; */
+}
+/* .chicken{
+    color: black;
+    background-color: pink;
+}
+.meat{
+    color:white;
+    background-color: red;
+}
+.sushi{
+    color:black;
+    background-color:yellow;
+} */
+.class>p{
+    padding: 10px;
+}
+.hide{
+    display:none;
+}
+@media screen and (max-width:767px){
+    .menu{
+        display: inline-block;
+        border: 1px solid black;
+        padding: 10px;
+        margin-left: 50%;
+    }
+    .menu div{
+        display: block;
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    }
+    .middle{
+        display:block;
+    }
+    .middle h1{
+        text-align: center;
+        padding: 10px;
+    }
+    .class{
+    width: 100%;
+    margin: 20px 10px;
+    border: 1px solid black;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hide{
+    display: inline-block;
+}
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .menu{
+        display: inline-block;
+        border: 1px solid white;
+        padding: 10px;
+        margin-left: 70%;
+    }
+    .menu div{
+        display: block;
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+    }
+    .middle h1{
+        text-align: center;
+        padding: 10px;
+    }
+    .class{
+    width: 45%;
+    margin: 20px 10px;
+    border: 1px solid black;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+}
